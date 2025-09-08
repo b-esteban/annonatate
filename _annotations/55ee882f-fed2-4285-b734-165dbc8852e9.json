@@ -1,0 +1,49 @@
+---
+canvas: "http://cudl.lib.cam.ac.uk/iiif/MS-EE-00005-00022/canvas/9"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "My first annotation",
+            "purpose": "commenting",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-09-08T09:45:03.858Z",
+            "modified": "2025-09-08T09:45:21.493Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "SEB",
+            "purpose": "tagging",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-09-08T09:45:27.761Z",
+            "modified": "2025-09-08T09:45:28.594Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://cudl.lib.cam.ac.uk//iiif/MS-EE-00005-00022",
+                "type": "Manifest"
+            },
+            "id": "http://cudl.lib.cam.ac.uk/iiif/MS-EE-00005-00022/canvas/9",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4414.1650390625,3827.411376953125,1487.06591796875,351.188720703125"
+        }
+    },
+    "id": "55ee882f-fed2-4285-b734-165dbc8852e9.json",
+    "motivation": "commenting"
+}
