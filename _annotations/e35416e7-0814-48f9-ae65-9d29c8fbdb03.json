@@ -1,0 +1,49 @@
+---
+canvas: "http://cudl.lib.cam.ac.uk/iiif/MS-EE-00005-00022/canvas/21"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "What is the meaning of this abbreviation?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-09-08T10:08:06.938Z",
+            "modified": "2025-09-08T10:08:37.318Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "SEB3",
+            "purpose": "tagging",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-09-08T10:08:31.034Z",
+            "modified": "2025-09-08T10:08:32.374Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://cudl.lib.cam.ac.uk//iiif/MS-EE-00005-00022",
+                "type": "Manifest"
+            },
+            "id": "http://cudl.lib.cam.ac.uk/iiif/MS-EE-00005-00022/canvas/21",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4256.81689453125,5406.619140625,340.57421875,225.21875"
+        }
+    },
+    "id": "e35416e7-0814-48f9-ae65-9d29c8fbdb03.json",
+    "motivation": "commenting"
+}
